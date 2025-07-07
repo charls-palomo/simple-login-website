@@ -1,0 +1,149 @@
+/* --bg-dark: hsl(220 100% 2%);
+--bg: hsl(210 97% 5%);
+--bg-light: hsl(206 70% 8%);
+--text: hsl(207 100% 96%);
+--text-muted: hsl(207 52% 70%);
+--highlight: hsl(206 38% 39%);
+--border: hsl(205 52% 27%);
+--border-muted: hsl(203 93% 16%);
+--primary: hsl(206 75% 69%);
+--secondary: hsl(29 64% 65%);
+--danger: hsl(9 37% 65%);
+--warning: hsl(52 26% 54%);
+--success: hsl(147 24% 57%);
+--info: hsl(217 40% 66%); */
+@import url('https://fonts.googleapis.com/css2?family=Bebas+Neue&family=Fira+Code:wght@300..700&family=Inter:ital,opsz,wght@0,14..32,100..900;1,14..32,100..900&family=Lexend:wght@100..900&family=Outfit:wght@100..900&family=Poppins:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&family=Roboto+Slab:wght@100..900&family=Ubuntu:ital,wght@0,300;0,400;0,500;0,700;1,300;1,400;1,500;1,700&display=swap');
+
+*
+{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: "Outfit";
+}
+
+body
+{
+    background-color: hsl(206 70% 8%);;
+}
+
+.mainHeader
+{
+    display: flex;
+    justify-content: center;
+    flex-direction: column;
+    text-align: center;
+    padding-top: 40px;
+    background-color: hsl(220 100% 2%);
+}
+
+.mainHeaderTxt
+{
+    color:hsl(207 100% 96%);
+    padding-bottom: 20px;
+}
+
+.logInTxt2
+{
+    color:hsl(207 100% 96%);
+    padding-bottom: 20px;
+}
+
+
+.mainContent
+{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    color: hsl(207 52% 70%);
+    margin-top: 50px;
+    font-size: 20px;
+}
+
+.logInPage
+{
+    background-color: hsl(210 97% 5%);
+    padding: 80px;
+    display: flex;
+    flex-direction: column;
+    font-weight: 800;
+    align-items: center;
+    justify-content: center;
+    border-radius: 10px;
+    box-shadow: 2px 2px hsl(210, 100%, 3%);
+}
+
+#username
+{
+margin-bottom: 45px;
+background: hsl(206 70% 8%);
+border: none;
+border-radius: 10px;
+margin-top: 10px;
+text-align: center;
+scale: 135%;
+color: hsl(207 100% 96%);
+}
+
+#username:focus,
+#password:focus {
+    border: none;
+    scale: 150%;
+    outline: none;
+    background: hsl(207, 69%, 25%);
+    transition: ease 0.2s;
+}
+
+#password
+{
+background: hsl(206 70% 8%);
+border: none;
+color: hsl(207 100% 96%);
+margin-top: 10px;
+text-align: center;
+border-radius: 10px;
+scale: 135%;
+}
+
+.logInSection
+{
+justify-content: center;
+align-items: center;
+display: flex;
+flex-direction: column;
+margin-top: 15px;
+color: hsl(207 100% 96%);
+font-weight: 800;
+}
+
+.logInBtn
+{
+    background: hsl(207, 69%, 25%);
+    border: none;
+    padding: 10px;
+    padding-left: 20px;
+    padding-right: 20px;
+    border-radius: 8px;
+    color: hsl(207 100% 96%);
+    font-weight: 800;
+    cursor: pointer;
+}
+
+.logInBtn:hover
+{
+    scale: 110%;
+    background: hsl(207, 68%, 36%);
+    transition: ease 0.2s;
+    border-radius: 16px;
+}
+
+.logInBtn:active
+{
+    border-radius: 24px;
+    scale: 125%;
+    background: rgb(41, 130, 204)
+}
+
+
+
+

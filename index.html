@@ -1,0 +1,42 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <link rel="stylesheet" href="style.css">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Simple Log-In Page</title>
+</head>
+<body>
+    <header class="mainHeader">
+        <h1 class="mainHeaderTxt">
+            Simple Log-In Website
+        </h1>
+
+        <br>
+
+        <h2 class="logInTxt2">
+            Log-In Below Here
+        </h2>
+    </header>
+
+    <main class="mainContent">
+
+
+        <form action="login" class="logInPage">
+            <label for="username">Username: </label>
+            <input type="text" id="username" name="username" class="username">
+
+            <label for="password">Password: </label>
+            <input type="password" id="password" name="password" class="password">
+        </form>
+    </main>
+
+    <section class="logInSection">
+        <p class="result" id="result"></p>
+        <br>
+        <button class="logInBtn" onclick="logIn()" id="logInBtn">Log-In</button>
+    </section>
+    
+    <script src="script.js"></script>
+</body>
+</html>
